@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.hummingbird</groupId>
+    <artifactId>hummingbird-common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>io.hummingbird</groupId>
+  <artifactId>hummingbird-dubbo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>hummingbird-dubbo</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+      <!-- 集成dubbo -->
+	     <dependency>
+		     <groupId>com.alibaba.cloud</groupId>
+		     <artifactId>spring-cloud-starter-dubbo</artifactId>
+	     </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.20.0-GA</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+  </dependencies>
+</project>

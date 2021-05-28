@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hummingbird-base" />
+        <module name="hummingbird-service-api" />
+        <module name="hummingbird-consumer" />
+        <module name="hummingbird-gateway" />
+        <module name="hummingbird-auth" />
+        <module name="hummingbird-log" />
+        <module name="hummingbird-dubbo" />
+        <module name="hummingbird-nacos" />
+        <module name="hummingbird-provider" />
+        <module name="hummingbird-cache" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hummingbird-auth" target="1.8" />
+      <module name="hummingbird-base" target="1.8" />
+      <module name="hummingbird-cache" target="1.8" />
+      <module name="hummingbird-cloud" target="1.8" />
+      <module name="hummingbird-common" target="1.8" />
+      <module name="hummingbird-consumer" target="1.8" />
+      <module name="hummingbird-dubbo" target="1.8" />
+      <module name="hummingbird-gateway" target="1.8" />
+      <module name="hummingbird-log" target="1.8" />
+      <module name="hummingbird-nacos" target="1.8" />
+      <module name="hummingbird-provider" target="1.8" />
+      <module name="hummingbird-service" target="1.8" />
+      <module name="hummingbird-service-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

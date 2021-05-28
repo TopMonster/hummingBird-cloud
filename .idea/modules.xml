@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-core/hummingbird-auth/hummingbird-auth.iml" filepath="$PROJECT_DIR$/hummingbird-core/hummingbird-auth/hummingbird-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-core/hummingbird-base/hummingbird-base.iml" filepath="$PROJECT_DIR$/hummingbird-core/hummingbird-base/hummingbird-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-core/hummingbird-cache/hummingbird-cache.iml" filepath="$PROJECT_DIR$/hummingbird-core/hummingbird-cache/hummingbird-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-cloud.iml" filepath="$PROJECT_DIR$/hummingbird-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-core/hummingbird-common.iml" filepath="$PROJECT_DIR$/hummingbird-core/hummingbird-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-service/hummingbird-consumer/hummingbird-consumer.iml" filepath="$PROJECT_DIR$/hummingbird-service/hummingbird-consumer/hummingbird-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-core/hummingbird-dubbo/hummingbird-dubbo.iml" filepath="$PROJECT_DIR$/hummingbird-core/hummingbird-dubbo/hummingbird-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-gateway/hummingbird-gateway.iml" filepath="$PROJECT_DIR$/hummingbird-gateway/hummingbird-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-core/hummingbird-log/hummingbird-log.iml" filepath="$PROJECT_DIR$/hummingbird-core/hummingbird-log/hummingbird-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-core/hummingbird-nacos/hummingbird-nacos.iml" filepath="$PROJECT_DIR$/hummingbird-core/hummingbird-nacos/hummingbird-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-service/hummingbird-provider/hummingbird-provider.iml" filepath="$PROJECT_DIR$/hummingbird-service/hummingbird-provider/hummingbird-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-service/hummingbird-service.iml" filepath="$PROJECT_DIR$/hummingbird-service/hummingbird-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hummingbird-service-api/hummingbird-service-api.iml" filepath="$PROJECT_DIR$/hummingbird-service-api/hummingbird-service-api.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+# Project exclude paths
+/hummingbird-common/hummingbird-auth/target/
+/hummingbird-common/hummingbird-base/target/
+/hummingbird-common/hummingbird-cache/target/
+/hummingbird-common/hummingbird-dubbo/target/
+/hummingbird-common/hummingbird-log/target/
+/hummingbird-common/hummingbird-nacos/target/
+/hummingbird-gateway/target/
+/hummingbird-service/hummingbird-consumer/target/
+/hummingbird-service/hummingbird-provider/target/
+/hummingbird-service-api/target/

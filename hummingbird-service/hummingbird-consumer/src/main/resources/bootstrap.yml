@@ -1,0 +1,21 @@
+# 端口
+server:
+    port: 8014
+    servlet:
+     context-path: /hummingbird-consumer
+
+spring: 
+    # 服务名称 
+    application.name: hummingbird-consumer
+    # 当前环境
+    profiles.active: dev
+
+dubbo:
+  cloud:
+    # The subscribed services in consumer side
+    subscribed-services: hummingbird-provider
+  protocols:
+    dubbo:
+      port: -1
+  consumer:
+    check: false

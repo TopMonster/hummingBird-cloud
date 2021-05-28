@@ -1,0 +1,20 @@
+# 端口
+server:
+    port: 8013
+
+spring: 
+    # 服务名称 
+    application.name: hummingbird-provider
+    # 当前环境
+    profiles.active: dev
+
+ 
+dubbo:
+  scan:
+    base-packages: io.hummingbird.provider
+  protocols:
+    dubbo:
+      name: dubbo
+      port: -1
+  cloud:
+    subscribed-services: hummingbird-provider
